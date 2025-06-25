@@ -13,7 +13,7 @@ const morgan = require("morgan");
 dbConnect();
 
 const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: "https://task-management-web-frontend.netlify.app" || "http://localhost:5173",
   methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
   credentials: true,
 };
